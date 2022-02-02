@@ -1,0 +1,476 @@
+@media (max-width: 24em) {
+  html {
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .navbar img {
+    max-width: 15rem;
+  }
+
+  .navbar .navbar--nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .navbar .navbar--nav .menu .menu-item a {
+    font-size: 1.8rem;
+  }
+
+  .header-section .img-container img {
+    width: 50vw;
+  }
+
+  .header-section .title {
+    font-size: 1.8rem;
+    width: 60vw;
+  }
+
+  .header-section .text {
+    font-size: 1.5rem;
+    width: 65vw;
+  }
+
+  .header-section .btn {
+    font-size: 1.3rem;
+    padding: 1.5rem 3rem;
+    margin-bottom: 8rem;
+  }
+
+  .icons-section .icon-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .icon-cards .card h2,
+  .icon-cards .card p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .pro-section {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .pro-section .img img {
+    max-width: 20rem;
+    margin-bottom: 4rem;
+  }
+
+  .pro-section .content h2 {
+    font-size: 2.5rem;
+  }
+
+  .pro-section .content p {
+    font-size: 1.8rem;
+  }
+
+  .testimonials .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 45rem;
+    margin-top: 10rem;
+    padding: 3rem;
+  }
+
+  .contact h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact p {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  .contact input {
+    width: 100%;
+    padding: 1.8rem 3rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .contact .btn {
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* .footer-section {
+    overflow-x: hidden;
+    max-width: 40rem;
+  } */
+
+  .footer-section .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 40rem;
+  }
+
+  .footer-section .footer-content .logo {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .footer-section .footer-content .logo img {
+    width: 50%;
+  }
+
+  .footer-section .footer-content .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section .footer-content .info img {
+    display: none;
+  }
+
+  .footer-section .footer-content .about {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-section .footer-content .location img {
+    display: none;
+  }
+
+  .footer-section .footer-content .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 38em) {
+  html {
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .navbar img {
+    max-width: 15rem;
+  }
+
+  .navbar .navbar--nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .navbar .navbar--nav .menu .menu-item a {
+    font-size: 1.8rem;
+  }
+
+  .header-section .img-container img {
+    width: 50vw;
+  }
+
+  .header-section .title {
+    font-size: 1.8rem;
+    width: 60vw;
+  }
+
+  .header-section .text {
+    font-size: 1.5rem;
+    width: 65vw;
+  }
+
+  .header-section .btn {
+    font-size: 1.3rem;
+    padding: 1.5rem 3rem;
+    margin-bottom: 8rem;
+  }
+
+  .icons-section .icon-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .icon-cards .card h2,
+  .icon-cards .card p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .pro-section {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .pro-section .img img {
+    max-width: 20rem;
+    margin-bottom: 4rem;
+  }
+
+  .pro-section .content h2 {
+    font-size: 2.5rem;
+  }
+
+  .pro-section .content p {
+    font-size: 1.8rem;
+  }
+
+  .testimonials .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 45rem;
+    margin-top: 10rem;
+    padding: 3rem;
+  }
+
+  .contact h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact p {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  .contact input {
+    width: 100%;
+    padding: 1.8rem 3rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .contact .btn {
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* .footer-section {
+    overflow-x: hidden;
+    max-width: 40rem;
+  } */
+
+  .footer-section .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 40rem;
+  }
+
+  .footer-section .footer-content .logo {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .footer-section .footer-content .logo img {
+    width: 50%;
+  }
+
+  .footer-section .footer-content .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section .footer-content .info img {
+    display: none;
+  }
+
+  .footer-section .footer-content .about {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-section .footer-content .location img {
+    display: none;
+  }
+
+  .footer-section .footer-content .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 57em) {
+  html {
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .navbar img {
+    max-width: 15rem;
+  }
+
+  .navbar .navbar--nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .navbar .navbar--nav .menu .menu-item a {
+    font-size: 1.8rem;
+  }
+
+  .header-section .img-container img {
+    width: 50vw;
+  }
+
+  .header-section .title {
+    font-size: 1.8rem;
+    width: 60vw;
+  }
+
+  .header-section .text {
+    font-size: 1.5rem;
+    width: 65vw;
+  }
+
+  .header-section .btn {
+    font-size: 1.3rem;
+    padding: 1.5rem 3rem;
+    margin-bottom: 8rem;
+  }
+
+  .icons-section .icon-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .icon-cards .card h2,
+  .icon-cards .card p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .pro-section {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .pro-section .img img {
+    max-width: 20rem;
+    margin-bottom: 4rem;
+  }
+
+  .pro-section .content h2 {
+    font-size: 2.5rem;
+  }
+
+  .pro-section .content p {
+    font-size: 1.8rem;
+  }
+
+  .testimonials .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 45rem;
+    margin-top: 10rem;
+    padding: 3rem;
+  }
+
+  .contact h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact p {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  .contact input {
+    width: 100%;
+    padding: 1.8rem 3rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .contact .btn {
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* .footer-section {
+    overflow-x: hidden;
+    max-width: 40rem;
+  } */
+
+  .footer-section .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 40rem;
+  }
+
+  .footer-section .footer-content .logo {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .footer-section .footer-content .logo img {
+    width: 50%;
+  }
+
+  .footer-section .footer-content .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section .footer-content .info img {
+    display: none;
+  }
+
+  .footer-section .footer-content .about {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-section .footer-content .location img {
+    display: none;
+  }
+
+  .footer-section .footer-content .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
